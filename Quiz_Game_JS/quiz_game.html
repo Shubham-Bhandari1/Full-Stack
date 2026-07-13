@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chalkboard Quiz</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="board" id="board">
+  <div class="quiz-view" id="quizView">
+    <div class="header">
+      <div class="tally-wrap" id="tallyWrap"></div>
+      <div class="score-tag">score <span id="scoreOut">0</span>/<span id="totalOut">0</span></div>
+    </div>
+    <div class="category" id="category"></div>
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+    <div class="feedback" id="feedback"></div>
+    <button class="next-btn" id="nextBtn">Next question</button>
+  </div>
+
+  <div class="results" id="results">
+    <div class="results-title" id="resultsTitle">Quiz complete</div>
+    <div class="results-score" id="resultsScore">0/0</div>
+    <div class="results-note" id="resultsNote"></div>
+    <button class="restart-btn" id="restartBtn">Play again</button>
+  </div>
+</div>
+
+<script src="quiz.js" charset="UTF-18">
+  
+</script>
+
+</body>
+</html>
